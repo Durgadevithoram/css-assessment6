@@ -1,0 +1,142 @@
+body{
+    background-image: url(sahara.jpg);
+
+}
+.body{
+    position: relative;
+    display: block;
+}
+.home{
+    color:black;
+    cursor: pointer;
+    margin-left: 1000px;
+    text-decoration:none ;
+
+}
+.region{
+     color:black;
+     cursor: pointer;
+     text-decoration: none;
+     margin-left: 40px;
+}
+.about{
+    color:black;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 60px;
+}
+.camel{
+    background-image: url(camel2.jpeg);
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+    position: absolute;
+    background-color:white;
+    background-clip: calc(3px);
+}
+.line{
+    height:23px;
+    width:25px;
+    border-radius: 50%;
+    color:white;
+    border: 2px solid white;
+    background-color: gray;
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: -20px;
+}
+.material-icons{
+    font-family:.Material-icons;
+    font-style:normal;
+    font-weight:normal;
+    line-height:1;
+    letter-spacing:normal;
+    text-transform:none;
+    display: inline-block;
+    white-space:nowrap;
+    word wrap:none;
+    direction:1tr;
+    position: relative;
+    bottom:2px;
+    color:white;
+}
+.heading{
+    display: block;
+    margin-left: 100px;
+    margin-top: 200px;
+    color:red;
+    font-size: 25px;
+}
+p{
+    color:white;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    height:50px;
+    width:200px;
+}
+.container{
+    display: flex;
+    top:20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+.item1{
+    height:200px;
+    width:250px;
+    background-image: url(westren.png);
+    border-radius: 20px;
+    background-size: 250px;
+    margin-top: -300px;
+    margin-left: 800px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+}
+h3{
+    font-size: 25px;
+}
+.item2{
+    height:200px;
+    width:250px;
+    background-image: url(AI.png);
+    border-radius: 20px;
+    background-size: 250px;
+    margin-top: -180px;
+    margin-left: 300px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+}
+.item3{
+    height:200px;
+    width:250px;
+    background-image: url(AI.png);
+    border-radius: 20px;
+    background-size: 250px;
+    margin-top: 150px;
+    margin-left: -300px;
+    cursor: pointer;
+    text-align: center;
+    color:white;
+}
+.item4{
+    height:200px;
+    width:250px;
+    background-image: url(kalhari.png);
+    border-radius: 20px;
+    background-size: 250px;
+     margin-top: -150px; 
+     margin-left: 300px; 
+    cursor: pointer;
+    text-align: center;
+    color:white;
+}
